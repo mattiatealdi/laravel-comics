@@ -1,0 +1,39 @@
+//
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header{
+      height: 80px;
+      background-color: blue;
+      display: flex;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  li{
+      display: flex;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .container{
+    width: 40%;
+    padding-left: 200px;
+  }
+
+  .wrapper{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
