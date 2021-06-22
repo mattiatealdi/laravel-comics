@@ -6,18 +6,36 @@
   }
 
   header{
-      height: 80px;
-      background-color: blue;
-      display: flex;
+      height: 100px;
+    display: flex;
+    ul{
+        list-style-type: none;
+        display:flex;
+        li{
+            display: flex;
+            margin-left: 30px;
+            line-height: 100px;
+        };
+        .active{
+            border-bottom: 6px solid rgb(126, 126, 255);
+            padding-bottom: 134px;
+        }
+    }
   }
 
-  ul{
-    list-style-type: none;
-  }
+header img{
+    margin-left: 200px;
+}
 
-  li{
-      display: flex;
-  }
+main{
+    .jumbotron{
+        background-image: url(/img/jumbotron.jpg);
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+        margin-top: 40px;
+    }
+}
 
   a{
     text-decoration: none;

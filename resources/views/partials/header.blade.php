@@ -10,16 +10,16 @@
     <header>
         <img src="{{ asset('img/dc-logo.png') }}" alt="dc-logo" srcset="">
         <ul>
-            <li>CHARACTERS</li>
-            <li>COMICS</li>
-            <li>MOVIES</li>
-            <li>TV</li>
-            <li>GAMES</li>
-            <li>COLLECTIBLES</li>
-            <li>VIDEOS</li>
-            <li>FANS</li>
-            <li>NEWS</li>
-            <li>SEARCH</li>
+            <li><a class ="active" href="/">CHARACTERS</a></li>
+            <li><a href="{{ url('comics') }}">COMICS</a></li>
+            <li><a href="{{ url('movies') }}">MOVIES</a></li>
+            <li><a>TV</a></li>
+            <li><a>GAMES</a></li>
+            <li><a>COLLECTIBLES</a></li>
+            <li><a>VIDEOS</a></li>
+            <li><a>FANS</a></li>
+            <li><a>NEWS</a></li>
+            <li><a>SEARCH</a></li>
         </ul>
     </header>
 </body>
